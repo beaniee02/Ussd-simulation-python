@@ -16,10 +16,10 @@ This project is a Python-based USSD simulation system that mimics basic mobile b
 
 # Project Purpose
 This project was built to simulate real-world USSD banking systems and strengthen my understanding of:
-- Backend logic
-- Database integration
-- User authentication systems
-- Command-line application design
+  - Backend logic
+  - Database integration
+  - User authentication systems
+  - Command-line application design
   
 # How It Works
 - Users register an account with personal details
