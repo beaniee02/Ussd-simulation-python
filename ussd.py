@@ -1,11 +1,12 @@
 import mysql.connector as sql
 import random
 import sys
+import os
 
 class Bank:
 
     def __init__(self):
-        self.my_con = sql.connect(host='127.0.0.1', username='root', password='busolami2003@', db='bank')
+        self.my_con = sql.connect(host=os.getenv("DB_HOST"), username=os.getenv("DB_USER"), password=os.getenv("DB_PASSWORD"), db='bank')
 
         self.my_cursor = self.my_con.cursor()
 
